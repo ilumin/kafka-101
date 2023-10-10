@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:producer": "node producer.js getting-started.properties",
+    "start:consumer": "node consumer.js getting-started.properties"
   },
   "keywords": [],
   "author": "",
